@@ -3,3 +3,4 @@
 .venv/
 .vscode/
 info
+__pycache__
