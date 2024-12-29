@@ -46,4 +46,4 @@ def hendler_message(message):
         bot.reply_to(message, "Вы вели неверное значение!")
        
     
-bot.infinity_polling(
+bot.infinity_polling()
