@@ -1,4 +1,9 @@
 import sqlite3
+import sys
+import os
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
 from app.config import DB_PATH
 
 #Create and check database if it exists 
